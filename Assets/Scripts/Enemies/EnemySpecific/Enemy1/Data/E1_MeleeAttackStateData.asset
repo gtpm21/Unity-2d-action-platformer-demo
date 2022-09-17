@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7fcf10c75f625641bca23218f0ebce6, type: 3}
+  m_Name: E1_MeleeAttackStateData
+  m_EditorClassIdentifier: 
+  attackRadius: 0.5
+  attackDamage: 20
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 512
+  meleeClips:
+  - {fileID: 8300000, guid: b445d4a08d6254c41a31dadbff06d04d, type: 3}
+  - {fileID: 8300000, guid: ebe2ea6311c10f14a83349d0059e29a3, type: 3}
